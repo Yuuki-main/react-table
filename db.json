@@ -1,0 +1,48 @@
+{
+  "tableData": [
+    {
+      "testName": "Yahiko",
+      "testType": "PHP",
+      "testerEmail": "yahiko@gmail.com",
+      "creationDate": "2023-07-23T18:15:36.054Z",
+      "lastUpdate": "2023-07-24T05:34:05.603Z",
+      "testerMobileNo": "7777777777",
+      "testerAlternateNo": "8888888888",
+      "id": 1
+    },
+    {
+      "testName": "Kenshin",
+      "testType": "React Js",
+      "testerEmail": "kenshin@gmail.com",
+      "creationDate": "2023-07-23T18:15:36.054Z",
+      "lastUpdate": "2023-07-23T18:15:36.054Z",
+      "testerMobileNo": "7272727272",
+      "testerAlternateNo": "8282828282",
+      "id": 2
+    },
+    {
+      "testName": "Yuuki",
+      "testType": "Node Js",
+      "testerEmail": "yuuki@test.com",
+      "testerMobileNo": "4564564564",
+      "testerAlternateNo": "7897897897",
+      "creationDate": "2023-07-23T16:53:54.517Z",
+      "lastUpdate": "2023-07-24T05:34:11.268Z",
+      "id": 3
+    }
+  ],
+  "typeTableData": [
+    {
+      "id": 1,
+      "testType": "PHP"
+    },
+    {
+      "id": 2,
+      "testType": "Node Js"
+    },
+    {
+      "id": 3,
+      "testType": "React Js"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px !important;
+  border: 2px solid #000 !important;
+  border-radius: 5px !important;
+  background: #000 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-outlined {
+  width: 100%;
+  padding: 10px 20px !important;
+  border: 1px solid #000 !important ;
+  border-radius: 5px !important;
+  color: #000 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover,
+.btn-outlined:hover {
+  transform: scale(0.98);
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+/* Form styles - - - - - */
+
+.home-main-heading,
+.php-test-form-heading,
+.test-type-form-heading {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* Table styles - - - - - */
+
+.php-test-table-heading,
+.test-type-table-heading {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 20px;
+  text-align: center;
+  color: #e6e6e6;
+  background: #19212c;
+}
+
+.table-navigation-container {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px 0;
+}
+
+.main-table th {
+  font-weight: 600;
+  background-color: #616161;
+  color: #e6e6e6;
+}
+.main-table td {
+  padding: 16px 8px;
+}
+
+/* - - - - Media Queries- - - - */
+
+@media only screen and (max-width: 540px) {
+  .btn {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+  .btn-outlined {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+
+  .php-test-table-heading,
+  .test-type-table-heading {
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+}
